@@ -1,0 +1,30 @@
+.item {
+  padding: 2rem;
+  border: rgb(119, 119, 119) solid 2px;
+  background: #ccc;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px auto;
+  grid-gap: 0.3rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border: solid red 2px;
+  background-color: #aaaaaa;
+  text-align: center;
+  grid-gap: 0.3rem;
+  margin-top: 1rem;
+}
+.section1 {
+  background-color: aqua;
+  border: 1px solid black;
+}
+.aside1 {
+  background-color: bisque;
+  border: 1px solid black;
+}
