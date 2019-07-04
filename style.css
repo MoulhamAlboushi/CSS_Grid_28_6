@@ -1,3 +1,18 @@
+.li-navbar-header {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  list-style: none;
+  font-size: 20px;
+  color: black;
+  border: black solid 0.7px;
+  /* text-align: center; */
+  list-style-type: none;
+}
+.li-navbar-header a {
+  color: #aaa;
+  /* padding-top: 40px; */
+}
+
 .item {
   padding: 2rem;
   border: rgb(119, 119, 119) solid 2px;
