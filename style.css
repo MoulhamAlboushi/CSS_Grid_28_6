@@ -2,21 +2,23 @@
   display: grid;
   grid-template-columns: repeat(7, auto);
   list-style: none;
-  font-size: 20px;
+  font-size: 25px;
   color: black;
   border: black solid 0.7px;
   /* text-align: center; */
   list-style-type: none;
-  padding-top: 25px;
+  /* padding-top: 25px; */
+  align-items: center;
 }
 .li-navbar-header a {
   color: #aaa;
   border-radius: 30px;
   border: black solid 1px;
   background-color: greenyellow;
+  padding: 15px;
 }
 .li-navbar-header,
-111, {
+111 {
   font-size: 50;
   border: 1px red solid;
 }
