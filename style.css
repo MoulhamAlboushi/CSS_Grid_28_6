@@ -37,10 +37,13 @@ body {
   border: green solid 3.5px;
   color: black;
 }
-.container {
+.container 
+/* .even */
+ {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: 1fr fr auto;
+  grid-template-columns: 1fr fr;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
   margin: 0 5%;
   padding: 10px 0 0 25px;
   font-family: "Satisfy", cursive;
@@ -49,13 +52,26 @@ body {
   background: url(img/morgen-foto.jpg);
   background-repeat: no-repeat;
   background-size: 110%;
-  border-radius: 0 0 30% 30%;
+  border-radius: 0 0 40% 40%;
+  border: black solid 1px;
 }
 .par {
   color: aliceblue;
   font-size: 50px;
   padding: 4%;
 }
+.even {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: solid black 1px;
+  margin: 5px;
+}
+.even img {
+  width: 100%;
+}
+/* .even img {
+  size: 30%;
+} */
 /* .goedemorgen {
   var: (--goedemorgen);
 } */
