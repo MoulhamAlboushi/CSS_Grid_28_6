@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+
 .li-navbar-header {
   display: grid;
   grid-template-columns: repeat(7, auto);
   list-style: none;
-  font-size: 16px;
+  font-size: 18px;
   color: black;
   border: black solid 1.7px;
   /* text-align: center; */
@@ -22,7 +24,24 @@
   font-size: 50;
   border: 1px red solid;
 }
-.spaarprogramma :hover {
+.spaar {
+  background-color: rgb(36, 224, 36);
   border-radius: 30px;
-  background-color: green;
+  border: black solid 3.5px;
+}
+.spaar:hover {
+  border-radius: 30px;
+  background-color: rgb(246, 248, 246);
+  border: green solid 3.5px;
+  color: black;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin: 0 15%;
+  font-family: "Satisfy", cursive;
+  font-size: 100px;
+}
+.goedemorgen {
+  var: (--goedemorgen);
 }
