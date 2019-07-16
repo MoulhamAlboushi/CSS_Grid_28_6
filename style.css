@@ -66,18 +66,38 @@ body {
   border: solid black 1px;
   padding: 10px;
   margin: 5px;
+  align-items: center;
 }
 .even img {
   width: 100%;
 }
 .even1 {
+  color: rgb(214, 85, 76);
   font-family: "Satisfy", cursive;
   font-size: 70px;
+  padding: 15px;
 }
 .even-p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
+.even-ont {
+  display: inline;
+  font-size: 20px;
+  background-color: rgb(36, 224, 36);
+  border-radius: 30px;
+  border: black solid 3.5px;
+  text-align: center;
+  padding: 5px;
+  margin: 0 0 0 50px;
+}
+.even-ont:hover {
+  border-radius: 30px;
+  background-color: rgb(246, 248, 246);
+  border: green solid 3.5px;
+  color: black;
+}
+
 /* .even img {
   size: 30%;
 } */
