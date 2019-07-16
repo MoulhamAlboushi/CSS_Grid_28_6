@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
-
+body {
+  box-sizing: border-box;
+}
 .li-navbar-header {
   display: grid;
   grid-template-columns: repeat(7, auto);
@@ -38,12 +40,21 @@
 .container {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr fr auto;
   margin: 0 5%;
+  padding: 10px 0 0 25px;
   font-family: "Satisfy", cursive;
-  font-size: 80px;
-  color: wheat;
-  background: url(/img/Pickwick.\Neem\de\tijd_files/);
+  font-size: 100px;
+  color: rgb(250, 249, 249);
+  background: url(img/morgen-foto.jpg);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  border-radius: 0 0 30% 30%;
+}
+.par {
+  color: aliceblue;
+  font-size: 50px;
+  padding: 4%;
 }
 /* .goedemorgen {
   var: (--goedemorgen);
