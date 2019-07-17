@@ -117,10 +117,11 @@ body {
   background-color: aqua;
 }
 .smaak2 {
-  background-color: blueviolet;
   grid-column: 1 / span 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.smaak2 img {
 }
 .smaak3 {
   background-color: brown;
