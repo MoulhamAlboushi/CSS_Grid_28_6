@@ -65,7 +65,7 @@ body {
   grid-template-columns: 50% 50%;
   border: solid black 1px;
   padding: 10px;
-  margin: 5px;
+  margin: 7px 5%;
   align-items: center;
 }
 .even img {
@@ -97,10 +97,27 @@ body {
   border: green solid 3.5px;
   color: black;
 }
-
-/* .even img {
-  size: 30%;
-} */
-/* .goedemorgen {
-  var: (--goedemorgen);
-} */
+.smaken {
+  display: grid;
+  grid-gap: 7px;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  background-color: gray;
+}
+.smaak1 {
+  grid-column: 1 / span 3;
+  background-color: aqua;
+}
+.smaak2 {
+  background-color: blueviolet;
+  grid-column: 1 / span 2;
+}
+.smaak3 {
+  background-color: brown;
+  grid-row: 2 / 3;
+}
+.smaak4 {
+  background-color: yellowgreen;
+  grid-column: 1 / span 2;
+}
