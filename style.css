@@ -104,20 +104,27 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   background-color: gray;
+  font-size: 100px;
+  grid-template-areas:
+    "smaak1 smaak1 smaak1"
+    "smaak2 smaak2 smaak3"
+    "smaak4 smaak4 smaak3";
 }
 .smaak1 {
-  grid-column: 1 / span 3;
+  /* grid-column: 1 / span 3; */
   background-color: aqua;
 }
 .smaak2 {
   background-color: blueviolet;
-  grid-column: 1 / span 2;
+  /* grid-column: 1 / span 2; */
 }
 .smaak3 {
   background-color: brown;
-  grid-row: 2 / 3;
+  /* grid-column: 3 / 4;
+  grid-row: 2 / 4;
+  grid-template-areas:  */
 }
 .smaak4 {
   background-color: yellowgreen;
-  grid-column: 1 / span 2;
+  /* grid-column: 1 / span 2; */
 }
