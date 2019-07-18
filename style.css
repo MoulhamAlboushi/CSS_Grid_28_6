@@ -148,4 +148,15 @@ span {
   grid-column: 1 / span 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 7px;
+  font-family: "Satisfy", cursive;
+  font-size: 25px;
+}
+.smaak4 p span {
+  font-size: 50px;
+}
+.smaak4 img {
+  width: 100%;
+  /* padding: 5px; */
+  margin: 5px;
 }
