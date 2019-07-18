@@ -138,13 +138,17 @@ span {
   font-size: 50px;
 }
 .smaak3 {
-  background-color: brown;
+  background-image: url(img/zwarte-thee.jpg);
   grid-column: 3 / 4;
   grid-row: 2 / 4;
+  border: 3px solid red;
   /* grid-template-areas:  */
 }
+.smaak3 img {
+  width: 100%;
+}
 .smaak4 {
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   grid-column: 1 / span 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -154,6 +158,10 @@ span {
 }
 .smaak4 p span {
   font-size: 50px;
+}
+.smaak4 p {
+  margin: 0 0 0 10px;
+  /* border: black solid 1px; */
 }
 .smaak4 img {
   width: 100%;
