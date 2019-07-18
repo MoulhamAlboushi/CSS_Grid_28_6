@@ -120,14 +120,11 @@ body {
 }
 .smaak2 img {
   width: 100%;
-  border-image: 1px solid black;
-  /* padding: 5px;
-  margin: 5px; */
+  border-image: 1px solid rgb(231, 75, 75);
 }
 .smaak3 {
-  border: orange 2px solid;
-  padding: 5px;
-  margin: 5px;
+  background-color: rgb(245, 245, 134);
+  /* border: orange 2px solid; */
 }
 .smaak3 span {
   font-size: 50px;
@@ -135,12 +132,17 @@ body {
 
 .smaak4 img {
   width: 100%;
-  /* padding: 5px; */
-  border: 3px solid red;
+  /* border: 3px solid red; */
+}
+
+.smaak5 {
+  background-color: rgb(250, 206, 123);
+  padding: 2px;
 }
 
 .smaak5 span {
   font-size: 50px;
+  padding: 0;
 }
 
 .smaak6 img {
@@ -148,7 +150,8 @@ body {
 }
 
 .smaak7 {
-  border: green solid 2px;
+  /* border: green solid 2px; */
+  background-color:#fd9644;
 }
 .smaak7 span {
   font-size: 50px;
