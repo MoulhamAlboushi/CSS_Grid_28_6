@@ -8,17 +8,11 @@ body {
   list-style: none;
   font-size: 18px;
   color: black;
-  border: black solid 1.7px;
-  /* text-align: center; */
   list-style-type: none;
-  /* padding-top: 25px; */
   text-decoration-color: none;
   align-items: center;
 }
 .li-navbar-header a {
-  /* color: #aaa; */
-  /* border: black solid 1px; */
-  /* background-color: greenyellow; */
   padding: 15px;
   text-decoration: none;
 }
@@ -37,9 +31,7 @@ body {
   border: green solid 3.5px;
   color: black;
 }
-.container 
-/* .even */
- {
+.container {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: 1fr fr;
@@ -102,28 +94,30 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
   text-align: center;
-  background-color: gray;
+  /* background-color: gray; */
   font-family: "Satisfy", cursive;
   font-size: 30px;
   margin: 0 5% 0 5%;
   padding: 5px;
-  /* grid-template-rows: repeat(4, 1fr); */
-  /* align-items: center; */
 }
 
 .smaak1 {
   grid-column: 1 / span 3;
   font-size: 50px;
   background-color: aqua;
-  /* text-align: center; */
-  /* text-decoration: */
+  color: white;
 }
+
 .smaak2 img {
   width: 100%;
   border-image: 1px solid rgb(231, 75, 75);
 }
+
 .smaak3 {
-  background-color: rgb(245, 245, 134);
+  /* background-color: rgb(223, 223, 103); */
+  background-color: #fef98e;
+  padding: 2px;
+
   /* border: orange 2px solid; */
 }
 .smaak3 span {
@@ -132,7 +126,6 @@ body {
 
 .smaak4 img {
   width: 100%;
-  /* border: 3px solid red; */
 }
 
 .smaak5 {
@@ -150,46 +143,51 @@ body {
 }
 
 .smaak7 {
-  /* border: green solid 2px; */
-  background-color:#fd9644;
+  background-color: #fd9644;
 }
 .smaak7 span {
   font-size: 50px;
 }
 .smaak8 {
   display: inline;
-  background-color: rgb(36, 224, 36);
+  background-color: rgb(142, 245, 142);
   border-radius: 30px;
   border: black solid 3.5px;
+  padding: 0;
 }
 .smaak8:hover {
   border-radius: 30px;
   background-color: rgb(246, 248, 246);
   border: green solid 3.5px;
   color: black;
+  padding: 0;
 }
 .smaak9 {
   display: inline;
-  background-color: rgb(36, 224, 36);
+  background-color: rgb(142, 245, 142);
   border-radius: 30px;
   border: black solid 3.5px;
+  padding: 0;
 }
 .smaak9:hover {
   border-radius: 30px;
   background-color: rgb(246, 248, 246);
   border: green solid 3.5px;
   color: black;
+  padding: 0;
 }
 .smaak10 {
   /* display: block; */
   display: inline;
-  background-color: rgb(36, 224, 36);
+  background-color: rgb(142, 245, 142);
   border-radius: 30px;
   border: black solid 3.5px;
+  padding: 0;
 }
 .smaak10:hover {
   border-radius: 30px;
   background-color: rgb(246, 248, 246);
   border: green solid 3.5px;
   color: black;
+  padding: 0;
 }
