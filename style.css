@@ -106,6 +106,7 @@ body {
   background-color: gray;
   font-size: 16px;
   margin: 0 5%;
+  text-align: center;
   /* margin: 5px; */
   /* grid-template-areas:
     "smaak1 smaak1 smaak1"
@@ -114,51 +115,55 @@ body {
 }
 .smaak1 {
   grid-column: 1 / span 3;
-  /* left: 9rem; */
-  /* align-items: center; */
   background-color: aqua;
   text-align: center;
 }
 .smaak2 {
-  grid-column: 1 / span 2;
-  display: grid;
+  width: 100%;
+  padding: 5px;
+}
+.smaak3 {
+  padding: 5px;
+  margin: 5px;
+}
+.smaak3 span {
+  font-size: 50px;
+}
+.smaak3 {
+  /* grid-column: 1 / span 2; */
+  /* display: grid; */
   grid-template-columns: 1fr 1fr;
   font-family: "Satisfy", cursive;
   font-size: 30px;
   border: orange 2px solid;
 }
-.smaak2 img {
-  width: 100%;
-  padding: 5px;
+
+.smaak4 {
+  border: 3px solid red;
+  /* width: 140%; */
 }
-.smaak2 p,
-span {
-  padding: 5px;
-  margin: 5px;
+.smaak5 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
 }
-.smaak2 p span {
+.smaak5 span {
   font-size: 50px;
 }
-.smaak3 {
-  /* background-image: url(img/zwarte-thee.jpg); */
-  /* grid-column: 3 / 4; */
-  /* grid-row: 2 / 4; */
-  grid-row-start: 2;
+/* background-image: url(img/zwarte-thee.jpg); */
+/* grid-column: 3 / 4; */
+/* grid-row: 2 / 4; */
+/* grid-row-start: 2;
   grid-row-end: 4;
   grid-column-start: 3;
-  grid-column-end: 3;
-  border: 3px solid red;
-  /* grid-template-areas: ; */
-}
-.smaak3 img {
-  width: 100%;
-}
-.smaak4 {
+  grid-column-end: 3; */
+/* grid-template-areas: ; 
+}*/
+.smaak7 {
   /* background-color: yellowgreen; */
-  grid-column: 1 / span 2;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 7px;
+  /* grid-column: 1 / span 2; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  /* grid-gap: 7px; */
   font-family: "Satisfy", cursive;
   font-size: 30px;
   border: green solid 2px;
@@ -174,4 +179,43 @@ span {
   width: 100%;
   /* padding: 5px; */
   margin: 5px;
+}
+.smaak8 {
+  display: block;
+  font-size: 20px;
+  background-color: rgb(36, 224, 36);
+  border-radius: 30px;
+  border: black solid 3.5px;
+}
+.smaak8:hover {
+  border-radius: 30px;
+  background-color: rgb(246, 248, 246);
+  border: green solid 3.5px;
+  color: black;
+}
+.smaak9 {
+  display: block;
+  font-size: 20px;
+  background-color: rgb(36, 224, 36);
+  border-radius: 30px;
+  border: black solid 3.5px;
+}
+.smaak9:hover {
+  border-radius: 30px;
+  background-color: rgb(246, 248, 246);
+  border: green solid 3.5px;
+  color: black;
+}
+.smaak10 {
+  display: block;
+  font-size: 20px;
+  background-color: rgb(36, 224, 36);
+  border-radius: 30px;
+  border: black solid 3.5px;
+}
+.smaak10:hover {
+  border-radius: 30px;
+  background-color: rgb(246, 248, 246);
+  border: green solid 3.5px;
+  color: black;
 }
