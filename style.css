@@ -105,6 +105,7 @@ body {
   /* grid-template-rows: repeat(4, 1fr); */
   background-color: gray;
   font-size: 16px;
+  margin: 0 5%;
   /* margin: 5px; */
   /* grid-template-areas:
     "smaak1 smaak1 smaak1"
@@ -113,15 +114,28 @@ body {
 }
 .smaak1 {
   grid-column: 1 / span 3;
-
+  /* left: 9rem; */
+  align-items: center;
   background-color: aqua;
 }
 .smaak2 {
   grid-column: 1 / span 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  font-family: "Satisfy", cursive;
+  font-size: 25px;
 }
 .smaak2 img {
+  width: 100%;
+  padding: 5px;
+}
+.smaak2 p,
+span {
+  padding: 5px;
+  margin: 5px;
+}
+.smaak2 p span {
+  font-size: 50px;
 }
 .smaak3 {
   background-color: brown;
