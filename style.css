@@ -11,8 +11,9 @@ body {
   list-style-type: none;
   text-decoration-color: none;
   align-items: center;
-  position: static;
+  position: sticky;
   top: 0;
+  z-index: 1;
 }
 .li-navbar-header a {
   padding: 15px;
