@@ -194,3 +194,7 @@ body {
   color: black;
   padding: 0;
 }
+.theeblaadje{
+  background-image: url(/img/form-foto.png) no-repeat center center/cover;
+  padding: 0 100px;
+}
