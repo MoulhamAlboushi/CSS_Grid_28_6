@@ -2,14 +2,19 @@
 body {
   box-sizing: border-box;
 }
-/*Nieuw CSS  */
+/*Nieuw CSS*/
 :root{
---primary-color: rgb(200, 200, 200);
+--primary-color:#fff;
+--secondery-color:rgb(36, 224, 36);
+--light-color: rgb(200, 200, 200);
+--dark-color:black;
+--primary-font-family:'Quicksand', sans-serif;
+--secondery-font-family:'Merienda', cursive;
 }
 
 
 /*  */
-.navbar-header {
+header {
   border: 1px black solid;
   background-color: var(--primary-color);
   /* margin: 0; */
