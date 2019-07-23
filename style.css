@@ -1,18 +1,37 @@
-@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display= swap");
 body {
   box-sizing: border-box;
 }
+/*Nieuw CSS  */
+:root{
+primary-color: 
+}
+
+
+/*  */
+.navbar-header {
+  border: 1px black solid;
+  background-color: rgb(200, 200, 200);
+  /* margin: 0; */
+  font-family: "Quicksand", sans-serif;
+  margin: 0 0 3px 0;
+  padding: 3px;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
 .li-navbar-header {
   display: grid;
   grid-template-columns: repeat(7, auto);
   list-style: none;
-  font-size: 20px;
   list-style-type: none;
   text-decoration-color: none;
   align-items: center;
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 1; */
 }
 .li-navbar-header a {
   padding: 15px;
@@ -21,7 +40,7 @@ body {
 }
 /* .li-navbar-header {
   font-size: 50; */
-  /* border: 1px red solid; */
+/* border: 1px red solid; */
 /* } */
 .spaar {
   background-color: rgb(36, 224, 36);
@@ -40,11 +59,11 @@ body {
   grid-template-columns: 1fr fr;
   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
   margin: 0 5%;
-  padding: 10px 0 0 25px;
+  padding: 0px 0 0 25px;
   font-family: "Satisfy", cursive;
   font-size: 100px;
   color: white;
-  background: url(img/morgen-foto.jpg);
+  background: url(img/morgen-foto.jpg) no-repeat center center/cover;
   background-repeat: no-repeat;
   background-size: 110%;
   border-radius: 0 0 40% 40%;
@@ -194,7 +213,7 @@ body {
   color: black;
   padding: 0;
 }
-.theeblaadje{
+.theeblaadje {
   background-image: url(/img/form-foto.png) no-repeat center center/cover;
   padding: 0 100px;
 }
