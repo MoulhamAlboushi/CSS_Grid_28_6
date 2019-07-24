@@ -102,7 +102,7 @@ p{
   width: 100%;
 }
 /* end Even… wat meer! */
-.vavoriets-smaken,.tea-topics{
+.vavoriets-smaken,.tea-topics,.inspireren{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5rem;
@@ -126,11 +126,19 @@ text-align: center; */
 
 .tea-topics{
   grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
 }
 .tea-topics video{
   width: 100%;
 }
 
+
+.inspireren{
+  grid-template-columns: repeat(3, 1fr)
+}
+.inspireren img{
+  width: 100%;
+}
 
 
 
