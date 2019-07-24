@@ -102,7 +102,7 @@ p{
   width: 100%;
 }
 /* end Even… wat meer! */
-.vavoriets-smaken{
+.vavoriets-smaken,.tea-topics{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5rem;
@@ -110,8 +110,24 @@ p{
   justify-items:center;
   font-family: var(--primary-font-family);
   text-align: center ;
+  /* align-self: flex-end; */
 }
 .vavoriets-smaken img{
+  width: 100%;
+}
+.vavoriets-smaken + button{
+  display: inline-block;
+  vertical-align: middle;
+/* position: relative;
+justify-items: center;
+text-align: center; */
+}
+
+
+.tea-topics{
+  grid-template-columns: 1fr 1fr;
+}
+.tea-topics video{
   width: 100%;
 }
 
