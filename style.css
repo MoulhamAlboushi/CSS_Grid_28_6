@@ -42,6 +42,7 @@ header a {
 }
 .btn-bekijk {
   text-align: center;
+  display: inline-block;
 }
 .btn {
   background-color: var(--secondery-color);
@@ -139,11 +140,26 @@ text-align: center; */
   width: 100%;
 }
 .theeblaadje {
-  position: relative;
+  background-image: url(/img/form-foto.png  ) ;
+  /*  */
+  background-repeat: no-repeat;
+  background-position: center center/cover;
+  /*  */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 5%;
+  line-height: 1.3em;
+
+  /* position: relative; */
   padding-left: 5%;
 }
 input {
   font-display: var(--primary-font-family);
   padding: 10px;
   border-radius: 40px;
+}
+.instagram{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
 }
