@@ -29,11 +29,11 @@ video {
   position: sticky;
   top: 0;
   z-index: 2;
+  border-bottom: gray 3px solid;
 }
 .header-ul {
   display: flex;
   justify-content: space-around;
-  border: solid black 1px;
   /*display: grid;
   grid-template-columns: repeat(7, auto); */
   list-style: none;
