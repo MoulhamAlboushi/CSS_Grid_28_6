@@ -53,14 +53,18 @@ img ,video {
   margin: 10px;
 }
 .btn {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   background-color: var(--secondery-color);
   border-radius: 30px;
   border: var(--dark-color) solid 1px;
   padding: 5px;
   margin-top: 15px;
   text-decoration: none;
+}
+.btn-bekijkons{
+  display: flex;
+  justify-content: center;
 }
 .btn:hover {
   border-radius: 30px;
@@ -121,14 +125,6 @@ label {
 }
 .wat-meer{
   justify-content: center;
-}
-.button{
-  display: flex;
-  justify-self: center;
-
-}
-.mmm{
-  justify-self: center;
 }
 
 /* end Even… wat meer! */
